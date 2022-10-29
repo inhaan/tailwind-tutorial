@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .property-title {
+        @apply text-xl font-bold text-amber-800
+    }
+}
